@@ -3,6 +3,7 @@ import Membership from "./membership";
 import { configureServerSideGrowthBook } from "./growthbookServer";
 import { GrowthBook } from "@growthbook/growthbook";
 
+// added comment by pradeep to test git push
 
 export default async function Home() {
     configureServerSideGrowthBook();
